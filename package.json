@@ -1,9 +1,14 @@
 {
   "name": "homebridge-esp8266-smart-pot",
-  "version": "0.0.1",
+  "version": "1.0.3",
+  "description": "Make smart pot",
   "main": "./build/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonJuhan/homebridge-esp8266-smart-pot.git"
   },
   "author": "MoonJuhan",
   "license": "ISC",
@@ -14,6 +19,10 @@
     "node": ">=10.17.0",
     "homebridge": ">=0.4.8"
   },
+  "bugs": {
+    "url": "https://github.com/MoonJuhan/homebridge-esp8266-smart-pot/issues"
+  },
+  "homepage": "https://github.com/MoonJuhan/homebridge-esp8266-smart-pot#readme",
   "dependencies": {
     "@babel/runtime": "^7.14.8",
     "axios": "^0.21.1",
@@ -28,5 +37,11 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.8",
     "babel-loader": "^8.2.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 120
   }
 }
