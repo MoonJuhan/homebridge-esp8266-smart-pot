@@ -1,6 +1,6 @@
 {
   "name": "homebridge-esp8266-smart-pot",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "Make smart pot",
   "main": "./build/index.js",
   "scripts": {
