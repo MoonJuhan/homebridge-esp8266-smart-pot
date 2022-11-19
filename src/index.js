@@ -7,8 +7,13 @@ const setup = (homebridge) => {
 class ESP8266SmartPot {
   constructor(log, config, api) {
     this.log = log
+    this.log('ESP8266SmartPot Start')
     this.config = config
     this.api = api
+
+    this.log(config)
+    
+    this.log(api)
 
     this.Service = this.api.hap.Service
     this.Characteristic = this.api.hap.Characteristic
